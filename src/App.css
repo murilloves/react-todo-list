@@ -47,14 +47,21 @@ input:focus {
   .btn-task {
     width: 5em;
     font-size: 0.8em;
-    background-color: #2d9fbf;
-    color: #ffffff;
-    border: 2px solid #ffffffbd;
     border-radius: 1em;
     cursor: pointer;
     outline: none;
     float: right;
     margin-top: -2em;
+  }
+  .btn-done {
+    background-color: #2d9fbf;
+    color: #ffffff;
+    border: 2px solid #ffffffbd;
+  }
+  .btn-undo {
+    background-color: #646869;
+    color: #ffffff;
+    border: 2px solid #ffffffbd;
   }
 
   .text-task {
