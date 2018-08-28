@@ -6,7 +6,7 @@ const Task = ({todo, index, handleClick}) => {
             <span className="text-task" style={{ textDecoration: todo.done ? 'line-through' : 'none' }}>
                 {todo.value}
             </span>
-            <button className="btn-task" onClick={() => handleClick(index)}>
+            <button className={ !todo.done ? 'btn-task btn-done' : 'btn-task btn-undo' } onClick={() => handleClick(index)}>
                 {todo.done ? 'undo' : 'Done!'}
             </button>
         </div>
