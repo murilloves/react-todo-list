@@ -1,3 +1,65 @@
 .App {
   text-align: center;
 }
+
+.todo-list {
+  font-size: 3em;
+  color: #2d9fbf;
+  padding-bottom: 1.5em;
+  padding-top: 2em;
+  padding-left: 0.4em;
+  letter-spacing: 0.32em;
+  font-family: fantasy;
+}
+
+input {
+  font-size: 1.5em;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  border: 1px solid #aaaaaa;
+  color: #2d9fbf;
+  margin-bottom: 1em;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #2d9fbfdd;
+  box-shadow: 0 0 0 2px #2d9fbf55;
+}
+
+::placeholder {
+  color: #bbb;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #bbb;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #bbb;
+}
+
+.List {
+  width: 20em;
+  margin: auto;
+  padding-top: 0.5em;
+  text-align: left;
+}
+  .btn-task {
+    width: 5em;
+    font-size: 0.8em;
+    background-color: #212121;
+    color: cadetblue;
+    border-radius: 1em;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    margin-top: -2em;
+  }
+
+  .text-task {
+    font-size: 1.5em;
+    color: cadetblue;
+    display: list-item;
+    width: 75%;
+    word-wrap: break-word;
+  }

@@ -35,7 +35,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        TODO LIST
+        <div className="todo-list">TODO LIST</div>
         <Form
           handleChange={this.handleChange}
           inputValue={this.state.inputValue}
