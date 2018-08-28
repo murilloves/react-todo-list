@@ -17,7 +17,7 @@ input {
   padding: 0.5em;
   border-radius: 0.3em;
   border: 1px solid #aaaaaa;
-  color: #2d9fbf;
+  color: #3a464a;
   margin-bottom: 1em;
 }
 
@@ -47,8 +47,9 @@ input:focus {
   .btn-task {
     width: 5em;
     font-size: 0.8em;
-    background-color: #212121;
-    color: cadetblue;
+    background-color: #2d9fbf;
+    color: #ffffff;
+    border: 2px solid #ffffffbd;
     border-radius: 1em;
     cursor: pointer;
     outline: none;
@@ -58,7 +59,7 @@ input:focus {
 
   .text-task {
     font-size: 1.5em;
-    color: cadetblue;
+    color: #3a464a;
     display: list-item;
     width: 75%;
     word-wrap: break-word;
