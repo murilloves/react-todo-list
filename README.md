@@ -1,6 +1,3 @@
-# react-todo-list
-Todo list made in React
-
 # Frontend Challenge
 
 - [x] Create a List and Detail view for some model (e.g: todos, posts, products)
@@ -17,3 +14,27 @@ Todo list made in React
 
 [storybook]: https://github.com/storybooks/storybook
 [jest]: https://jest-everywhere.now.sh
+
+# react-todo-list
+Todo list made in React
+
+## #1 - Install packages
+```sh
+$ npm i
+```
+
+## #2 - Start the app
+```sh
+$ npm start
+```
+
+It should be listening at [localhost:8080]
+
+## #3 - Building the app
+```sh
+$ npm run build
+```
+
+It'll generate a folder named `prod`
+
+[localhost:8080]: http://localhost:8080
