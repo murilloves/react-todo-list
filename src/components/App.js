@@ -5,6 +5,7 @@ import Form from './Form';
 import List from './List';
 
 class App extends Component {
+
   state = {
       inputValue: '',
       todos: []
