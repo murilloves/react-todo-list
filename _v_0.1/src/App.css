@@ -17,7 +17,7 @@ input {
   padding: 0.5em;
   border-radius: 0.3em;
   border: 1px solid #aaaaaa;
-  color: #2d9fbf;
+  color: #3a464a;
   margin-bottom: 1em;
 }
 
@@ -29,12 +29,12 @@ input:focus {
 
 ::placeholder {
   color: #bbb;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
  color: #bbb;
 }
-::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder {
  color: #bbb;
 }
 
@@ -47,18 +47,26 @@ input:focus {
   .btn-task {
     width: 5em;
     font-size: 0.8em;
-    background-color: #212121;
-    color: cadetblue;
     border-radius: 1em;
     cursor: pointer;
     outline: none;
     float: right;
     margin-top: -2em;
   }
+  .btn-done {
+    background-color: #2d9fbf;
+    color: #ffffff;
+    border: 2px solid #ffffffbd;
+  }
+  .btn-undo {
+    background-color: #646869;
+    color: #ffffff;
+    border: 2px solid #ffffffbd;
+  }
 
   .text-task {
     font-size: 1.5em;
-    color: cadetblue;
+    color: #3a464a;
     display: list-item;
     width: 75%;
     word-wrap: break-word;

@@ -1,19 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Task extends Component {
-    render() {
-        return (
-            <div className="List">
-                <span className="text-task" style={{ textDecoration: this.props.todo.done ? 'line-through' : 'none' }}>
-                    {this.props.todo.value}
-                </span>
-                <button className="btn-task" onClick={() => this.props.handleClick(this.props.index)}>
-                    {this.props.todo.done ? 'undo' : 'Done!'}
-                </button>
-            </div>
-        )
-    }
+const Task = ({todo, index, handleClick}) => {
+    return (
+        <div className="List">
+            <span className="text-task" style={{ textDecoration: todo.done ? 'line-through' : 'none' }}>
+                {todo.value}
+            </span>
+            <button className={ !todo.done ? 'btn-task btn-done' : 'btn-task btn-undo' } onClick={() => handleClick(index)}>
+                {todo.done ? 'undo' : 'Done!'}
+            </button>
+        </div>
+    )
 }
-
 
 export default Task;
